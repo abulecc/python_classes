@@ -1,19 +1,3 @@
-###STRING CONCATENATION###
-
-# first_name = "John"
-# last_name = "Doe"
-
-# print(first_name + " " + last_name)
-
-# name = input("Tell us your name:")
-# # age = input("How old are you?")
-# year_of_birth = int(input("Year of Birth"))
-
-# current_year = 2022
-# age = current_year - year_of_birth
-
-# print(f"welcome, {name}, We can see that you are {age} years old.")
-
 ###Indexing & slicing##
 
 # b = "I am just good you know"
@@ -74,15 +58,15 @@ print(username)
 # else:
 #     print("no")
 
-username = input("enter your name: ")
-if "a" in username:
-    print("Invalid")
-elif "c" in username:
-    print("not allow")
-elif "e" in username:
-    print("error")    
-else:
-    print("username saved")
+# username = input("enter your name: ")
+# if "a" in username:
+#     print("Invalid")
+# elif "c" in username:
+#     print("not allow")
+# elif "e" in username:
+#     print("error")    
+# else:
+#     print("username saved")
 
 # a = []
 # print(type(a))
@@ -152,8 +136,6 @@ from re import L
 # }
 # print(my_dict["a"])
 
-# a = [2,4,8,15,22,55]
-# total = sum(a)
-# print(total//6)
-
-
+a = [2,4,8,15,22,55]
+total = sum(a)
+print(total//6)
